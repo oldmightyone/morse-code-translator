@@ -1,0 +1,95 @@
+body {
+    background-color: #EFF5F5
+}
+
+#navbar {
+    background-color: #474E68;
+    padding: 1rem 0 1rem 0;
+}
+
+.navbar {
+    padding-top: 0;
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 2rem
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 1rem
+}
+
+#icon {
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin: 3rem
+}
+
+
+.mb-3 {
+    margin: 2rem 3rem 5rem 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-label {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#footer {
+    margin-top: 2rem;
+    padding: 2% 7% 0.5% 7%;
+    background-color: #474E68;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.twitter, .facebook, .insta, .youtube {
+    text-align: center;
+    color: black;
+    margin: 0 0.75rem 1rem;
+}
+
+.twitter:hover {
+    font-size: 3rem;
+    color: #8DCBE6;
+}
+
+.facebook:hover {
+    font-size: 3rem;
+    color: blue;
+}
+
+.insta:hover {
+    font-size: 3rem;
+    color: magenta;
+}
+
+.youtube:hover {
+    font-size: 3rem;
+    color: red;
+}
+
+@media only screen and (max-width: 629px) {
+    h1 {
+        width: 18rem;
+    }
+}
