@@ -38,12 +38,13 @@
 
     <h3>Morse code is a method used in telecommunication to encode text characters as standardized sequences of two
       different signal durations, called dots and dashes, or dits (·) and dahs (–). Morse code is named after Samuel
-      Morse, one of the inventors of the telegraph. <br> <a href="https://en.wikipedia.org/wiki/Morse_code">READ MORE HERE</a></h3>
+      Morse, one of the inventors of the telegraph. <br><br> <a href="https://en.wikipedia.org/wiki/Morse_code" target="_blank">READ MORE HERE</a>
+      <br> <a href="https://morsedecoder.com/" target="_blank">OTHER MORSE CODE TRANSLATOR HERE</a></h3>
 
     <form method="post">
       <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Enter Text:</label>
-      <textarea name="input" id="exampleFormControlTextarea1" class="form-control" rows="5" placeholder="Ex: Hello muh name is lady bish!"></textarea>
+      <textarea name="input" id="exampleFormControlTextarea1" class="form-control" rows="5" placeholder="Ex: Hello muh name is lady bish!">{% if text %} {{ text }} {% endif %}</textarea>
       </div>
       <div class="mb-3 form-check">
         <input name="check" type="checkbox" class="form-check-input" id="exampleCheck1">

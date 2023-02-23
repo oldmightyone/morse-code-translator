@@ -38,12 +38,13 @@
 
     <h3>Morse code is a method used in telecommunication to encode text characters as standardized sequences of two
       different signal durations, called dots and dashes, or dits (·) and dahs (–). Morse code is named after Samuel
-      Morse, one of the inventors of the telegraph. <br> <a href="https://en.wikipedia.org/wiki/Morse_code">READ MORE HERE</a></h3>
+      Morse, one of the inventors of the telegraph. <br><br> <a href="https://en.wikipedia.org/wiki/Morse_code">READ MORE HERE</a>
+      <br> <a href="https://morsedecoder.com/">OTHER MORSE CODE TRANSLATOR HERE</a></h3>
 
     <form method="post">
       <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Enter Morse Code:</label>
-      <textarea data-initial-value="Hello" name="input" id="exampleFormControlTextarea1" class="form-control" rows="5" placeholder="Ex: ···· · ·–·· ·–·· –––   –– ··– ····   –· ·– –– ·   ·· ···   ·–·· ·– –·· –·––   –··· ·· ··· ····"></textarea>
+      <textarea data-initial-value="Hello" name="input" id="exampleFormControlTextarea1" class="form-control" rows="5" placeholder="Ex: ···· · ·–·· ·–·· –––   –– ··– ····   –· ·– –– ·   ·· ···   ·–·· ·– –·· –·––   –··· ·· ··· ····">{% if code %} {{ code }} {% endif %}</textarea>
       </div>
       <div class="d-grid gap-2 col-6 mx-auto">
         <button class="btn btn-outline-secondary" type="submit" style="margin: 1rem">Convert to Text!</button>
